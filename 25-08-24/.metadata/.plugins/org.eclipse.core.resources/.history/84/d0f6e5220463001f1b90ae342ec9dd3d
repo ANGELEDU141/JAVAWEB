@@ -1,0 +1,19 @@
+package instrumentos;
+
+import org.springframework.stereotype.Component;
+
+@Component("Bean1")
+//Termometro hijo de Instrumento
+public class Termometro implements Instrumento {
+
+    // metodo constructor
+    public Termometro() {
+
+    }
+
+    // Metodo heredado
+    @Override
+    public void medir() {
+        System.out.println(" ¡Medicion por Termometro!");
+    }
+}

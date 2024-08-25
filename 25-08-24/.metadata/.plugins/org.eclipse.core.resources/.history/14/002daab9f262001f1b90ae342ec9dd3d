@@ -1,0 +1,13 @@
+package Estaciones;
+
+public class EstacionMeteorologica {
+
+    // Metodo constructor
+    public EstacionMeteorologica() {
+    }
+
+    // Metodo simple
+    public void tomarMedicion() {
+
+    }
+}

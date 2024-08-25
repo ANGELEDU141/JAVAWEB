@@ -1,0 +1,26 @@
+package ANGELEDU141;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import Estaciones.EstacionMeteorologica;
+
+@SpringBootApplication
+public class AppstringApplication  implements CommandLineRunner  {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AppstringApplication.class, args);
+		
+		
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		System.out.println( "hello world with Spring" );
+		
+		
+		
+	}
+
+}

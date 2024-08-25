@@ -1,0 +1,25 @@
+package instrumentos;
+
+import org.springframework.stereotype.Component;
+
+public class Pluviometro {
+
+
+
+
+@Component("Bean5")
+public class Termometro implements Instrumento {
+
+    // metodo constructor
+    public Pluviometro() {
+
+    }
+
+    // Metodo heredado
+    @Override
+    public void medir() {
+        System.out.println(" ¡Medicion por Pluviometro!");
+    }
+}
+
+}

@@ -1,0 +1,21 @@
+package Estaciones;
+
+
+
+import instrumentos.Barometro;
+import instrumentos.Instrumento;
+
+public class EstacionMeteorologica {
+	
+	private Instrumento instrumento=new Barometro();
+	
+
+    // Metodo constructor
+    public EstacionMeteorologica() {
+    }
+
+    // Metodo simple
+    public void tomarMedicion() {
+
+    }
+}

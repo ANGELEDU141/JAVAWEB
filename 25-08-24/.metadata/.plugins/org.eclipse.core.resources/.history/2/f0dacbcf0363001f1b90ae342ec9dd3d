@@ -1,0 +1,27 @@
+package Estaciones;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+import instrumentos.Instrumento;
+
+@Component("estacionM")
+public class EstacionMeteorologica {
+	
+	@Autowired
+	@Qualifier("Bean1")
+	private Instrumento instrumento;
+	
+	
+
+    // Metodo constructor
+    public EstacionMeteorologica() {
+    }
+
+    // Metodo simple
+    public void tomarMedicion() {
+    	instrumento.medir();
+
+    }
+}
